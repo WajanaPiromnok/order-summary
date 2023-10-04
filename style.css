@@ -1,0 +1,160 @@
+.attribution 
+{ 
+    margin-top: 5%;
+    font-size: 0.5rem; 
+    text-align: center; 
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
+
+body
+{
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    height: 100%;
+    max-height: 100vh;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-white
+{
+    width: 25rem;
+    height: 40rem;
+    border-radius: 1.5rem;
+    background: #FFF;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.08);
+    margin: auto;
+    margin-top: 7.5%;
+}
+
+.card-image img
+{
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text
+{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text h1
+{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-top: 10%
+}
+
+.text p
+{
+    color: hsl(224, 23%, 55%);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+}
+
+.button-choose
+{
+    width: 80%;
+    height: 6rem;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 5%;
+    background: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+}
+
+.button-choose img
+{
+    width: auto;
+    height: 50%;
+    margin-top: 7.5%;
+    margin-left: 5%;
+}
+
+.plan-description 
+{
+    margin-right: 15%;
+    margin-left: 10%;
+    line-height: 1.25rem;
+    margin-top: 1.25rem;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.plan-description strong
+{
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-description p
+{
+    color: hsl(224, 23%, 55%);
+}
+
+.button-choose a
+{
+    color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.button-choose a:hover 
+{
+    color: hsl(244, 83%, 68%);
+    text-decoration: none;
+}
+
+.button-proceed
+{
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 16px 16px 0px rgba(56, 42, 218, 0.24);
+    border-radius: 0.5rem;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 6.5%;
+    height: 3rem;
+    font-family: 'Red Hat Display', sans-serif;
+    display: block;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.button-proceed:hover 
+{
+    background-color: hsl(244, 83%, 68%);
+}
+
+.button-cancel
+{
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.button-cancel:hover
+{
+    color: hsl(223, 47%, 23%);
+}
